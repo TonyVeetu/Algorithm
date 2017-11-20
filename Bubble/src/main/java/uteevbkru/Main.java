@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        int[] cats = {12, 5, 7, 8, 3, 0, 15};
+        int[] cats = {12, 5, 7, 8, 3, 0, -2};
 
         BubbleSort bubble = new BubbleSort();
         bubble.sort(cats);

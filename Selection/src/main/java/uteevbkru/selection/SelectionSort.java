@@ -1,7 +1,7 @@
 package uteevbkru.selection;
 
 public class SelectionSort implements Sort {
-
+    private String type = "SelectionSort";
     public void sort(int[] array){
         for(int i = 0; i < array.length - 1; i++){
             int index = i;
@@ -14,5 +14,9 @@ public class SelectionSort implements Sort {
             array[index] = array[i];
             array[i] = smaller;
         }
+    }
+
+    public String getType(){
+        return type;
     }
 }

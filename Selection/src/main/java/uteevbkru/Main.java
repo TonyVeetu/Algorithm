@@ -11,6 +11,8 @@ public class Main {
 
         SelectionSort selectionSort = new SelectionSort();
         selectionSort.sort(cats);
+
+        System.out.println(selectionSort.getType());
         for(int i = 0; i < cats.length; i++) {
             System.out.print(cats[i]  + "\t");
         }

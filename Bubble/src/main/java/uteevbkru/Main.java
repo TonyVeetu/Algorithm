@@ -11,6 +11,7 @@ public class Main {
 
         BubbleSort bubble = new BubbleSort();
         bubble.sort(cats);
+        System.out.println(bubble.getType());
         for(int i = 0; i < cats.length; i++) {
             System.out.print(cats[i]  + "\t");
         }
